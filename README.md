@@ -1,33 +1,30 @@
-Token Smart Contract
-Overview
+# Token Smart Contract
 
-This Solidity smart contract lets you create (mint) and destroy (burn) tokens. It tracks token balances and manages the total supply.
-Getting Started
+## Overview
+Token is a Solidity smart contract designed for creating and managing tokens on the Ethereum blockchain. It supports functionalities such as minting and burning tokens to adjust the total supply. The contract includes public variables for token details, a mapping for balance tracking, and methods for supply management.
 
-Use Remix, an online Solidity IDE, to run this contract:
+## Features
+- **Token Creation**: Mint new tokens to increase the total supply.
+- **Token Destruction**: Burn tokens to decrease the total supply.
+- **Balance Tracking**: Maintain and update token balances for addresses.
+- **Ethereum Compatibility**: Designed for deployment on Ethereum blockchain networks.
 
-    Create a New File:
-        Click "+" in Remix.
-        Save as MyToken.sol.
-        Paste the contract code.
+## Getting Started
+To deploy and interact with this contract:
+1. Clone the repository locally or download the `Token.sol` file.
+2. Use Remix, an online Solidity IDE, to compile and deploy the contract.
+3. Interact with the deployed contract to mint or burn tokens using Remix's interface.
 
-    Compile the Code:
-        Go to "Solidity Compiler" tab.
-        Set compiler to "0.8.18".
-        Click "Compile MyToken.sol".
+## Contributing
 
-    Deploy the Contract:
-        Open "Deploy & Run Transactions" tab.
-        Select "MyToken" from the dropdown.
-        Click "Deploy".
+Feel free to fork this repository, contribute changes, and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
 
-    Interact with the Contract:
-        To mint tokens, enter the address and amount, then call mint.
-        To burn tokens, enter the address and amount, then call burn.
 
-Authors
+## Authors
 
 Umang Bhardwaj
-License
 
-MIT License
+##License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
