@@ -33,7 +33,7 @@ To deploy and interact with this contract:
 
 4. *Interact with the Contract*:
    - Once deployed, interact with the contract by calling the mint and burn functions.
-   - For example, to mint tokens, input the address and value, and click on the mint function. Similarly, to burn tokens, input the address and value, and click on the burn function.
+   - For example, to mint tokens, input the address and value, and click on the mint function.Similarly, to burn tokens, input the address and value, and click on the burn function.
 
 
 ## Contributing
